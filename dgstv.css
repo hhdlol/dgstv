@@ -6,3 +6,8 @@
   font-variation-settings:
     "wdth" 100;
 }
+
+#test-image {
+  width: 100vw;
+  height: auto;
+}
