@@ -1,0 +1,240 @@
+body {
+  padding: 0;
+  margin: 0;
+  width: 1904px;
+  height: auto;
+}
+
+#home-page {
+  width: 100%; 
+  height: auto; 
+  object-fit: cover; 
+  position: relative;
+  z-index: -1;
+}
+
+#structure {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 101px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+}
+
+#top-bar {
+  border: 2px solid black;
+  width: 1842px;
+  height: 69px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#logo-section {
+  border: 2px solid black;
+  margin-top: 8px;
+  width: 157px;
+  height: 61px;
+}
+
+#search-bar-section {
+  border: 2px solid black;
+  width: 1218px;
+  height: 53px;
+  margin-left: 10px;
+  position: relative;
+
+}
+
+#login-section {
+  border: 2px solid black;
+  width: 165px;
+  height: 69px;
+}
+
+#top-section {
+  border: 2px solid black;
+  position: fixed;
+  width: 1900px;
+  height: 97px;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#search-icon {
+  position: absolute;
+  border: 2px solid black;
+  top: 6px;
+  left: 12px;
+  width: 37px;
+  height: 37px;
+}
+
+#left-section {
+  border: 2px solid black;
+  width: 289px;
+  height: 1224px;
+  margin-left: 29px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+#tool-box-section {
+  border: 2px solid black;
+  height: 168px;
+  width: 100%;
+  margin-top: -2px;
+}
+
+#classification-section {
+  border: 2px solid black;
+  width: 100%;
+  height: 1033px;
+}
+
+.tool-box-tools {
+  border: 2px solid black;
+  width: 285px;
+  height: 39px;
+
+}
+
+#middle-section {
+  border: 2px solid black;
+  width: 904px;
+  height: 1800px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.middle-sections {
+  border: 2px solid black;
+  width: 283px;
+  height: 1800px;
+}
+
+#right-section {
+  border: 2px solid black;
+  width: 579px;
+  height: 1595px;
+  margin-left: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 8px 5px 8px;
+  flex-direction: column;
+}
+
+.right-section-sectors {
+  display: flex;
+  align-items: center;
+  padding: 4px 8px 6px 8px;
+  flex-direction: column;
+}
+
+#recommendation {
+  border: 2px solid black;
+  width: 565px;
+  height: 635px;
+}
+
+#ranking {
+  border: 2px solid black;
+  width: 565px;
+  height: 307px;
+}
+
+#re-creation {
+  border: 2px solid black;
+  width: 565px;
+  height: 270px;
+}
+#forum {
+  border: 2px solid black;
+  width: 565px;
+  height: 311px;
+}
+
+.right-section-headings {
+  border: 2px solid black;
+  width: 565px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#recommendation-preview {
+  border: 2px solid black;
+  width: 565px;
+  height: 272px;
+}
+
+.content-choices {
+  border: 2px solid black;
+  width: 565px;
+  height: 44px;
+}
+
+#recommendation-content {
+  border: 2px solid black;
+  width: 565px;
+  height: 270px;
+}
+
+#daily-recommendation-text {
+  border: 2px solid black;
+  width: 132px;
+  height: 45px;
+}
+
+#past-recommendations {
+  border: 2px solid black;
+  width: 133px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+}
+
+#past-recommendations-text {
+  border: 2px solid black;
+  width: 80px;
+  height: 28px;
+  margin-bottom: 4px;
+}
+
+#past-recommendations-enter {
+  border: 2px solid black;
+  width: 45px;
+  height: 45px;
+  margin-left: 4px;
+  margin-right: -4px;
+}
+
+#ranking-content {
+  border: 2px solid black;
+  width: 565px;
+  height: 204px;
+}
+
+#re-creation-preview {
+  border: 2px solid black;
+  width: 565px;
+  height: 215px;
+}
+
+#forum-preview {
+  border: 2px solid black;
+  width: 565px;
+  height: 256px;
+}
